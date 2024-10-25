@@ -20,7 +20,7 @@ export default function LandingPage() {
     }, [])
 
     const handleSignIn = () => {
-        window.location.href = 'https://gannet-sweeping-frequently.ngrok-free.app/auth/login'
+        window.location.href = 'https://involved-aurora-adamararcane-64d09882.koyeb.app/auth/login'
     }
 
     return (

@@ -120,7 +120,7 @@ export default function Dashboard() {
 
     const fetchData = useCallback(async () => {
         try {
-            const response = await fetch('https://gannet-sweeping-frequently.ngrok-free.app/api/user-data', {
+            const response = await fetch('https://involved-aurora-adamararcane-64d09882.koyeb.app/api/user-data', {
                 credentials: 'include',
             });
             if (!response.ok) {

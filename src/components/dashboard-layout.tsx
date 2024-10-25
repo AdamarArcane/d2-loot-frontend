@@ -45,7 +45,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
 
     const handleSignOut = async () => {
         try {
-            const response = await fetch('https://gannet-sweeping-frequently.ngrok-free.app/api/logout', {
+            const response = await fetch('https://involved-aurora-adamararcane-64d09882.koyeb.app/api/logout', {
                 method: 'POST',
                 credentials: 'include',
             })

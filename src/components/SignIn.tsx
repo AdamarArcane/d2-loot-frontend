@@ -4,13 +4,12 @@ import { useState, useEffect } from 'react'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { ShieldCheck, Zap, Crosshair, ChevronDown, Sword, Target, Sparkles, ArrowRight } from "lucide-react"
-import { Link, useNavigate } from "react-router-dom"
+import { Link } from "react-router-dom"
 import { cn } from "@/lib/utils"
 import { ModeToggle } from "./mode-toggle"
 
 export default function LandingPage() {
     const [scrolled, setScrolled] = useState(false)
-    const navigate = useNavigate()
 
     useEffect(() => {
         const handleScroll = () => {

@@ -9,7 +9,7 @@ import {
     DropdownMenuSeparator,
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { ShieldCheck, Sun, Moon, Bell, LogOut, Menu } from "lucide-react"
+import { ShieldCheck, Sun, Moon, LogOut, Menu } from "lucide-react"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Link, useNavigate } from 'react-router-dom'
 import { ModeToggle } from "./mode-toggle"

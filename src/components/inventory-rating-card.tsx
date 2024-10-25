@@ -3,10 +3,9 @@
 import { useEffect, useState } from 'react'
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card"
 import { Progress } from "@/components/ui/progress"
-import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
-import { TrophyIcon, ArrowUpIcon, ArrowDownIcon, HelpCircle, BarChart3 } from "lucide-react"
+import { TrophyIcon, HelpCircle, BarChart3 } from "lucide-react"
 import { WeaponDetail } from "./types"
 import InventoryModal from './inventory-modal'
 
@@ -40,7 +39,6 @@ const rankThresholds = [
 export default function InventoryRatingCard({
     totalPoints,
     maxPossiblePoints,
-    weeklyChange,
     weapons,
     weaponTypes
 }: InventoryRatingProps) {

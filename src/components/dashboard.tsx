@@ -72,6 +72,24 @@ const WeaponCard = ({ weapon }: { weapon: WeaponDetail }) => {
         return text.length > maxLength ? text.slice(0, maxLength) + '...' : text;
     };
 
+    const getMobileWeaponType = (weaponType: string) => {
+        const mobileTypes: { [key: string]: string } = {
+            "Grenade Launcher": "GL",
+            "Combat Bow": "Bow",
+            "Fusion Rifle": "Fusion",
+            "Sniper Rifle": "Sniper",
+            "Machine Gun": "LMG",
+            "Trace Rifle": "Trace",
+            "Pulse Rifle": "Pulse",
+            "Submachine Gun": "SMG",
+            "Rocket Launcher": "Rocket",
+            "Linear Fusion Rifle": "LFR",
+            "Auto Rifle": "AR",
+            "Hand Cannon": "HC"
+        };
+        return mobileTypes[weaponType] || weaponType;
+    };
+
     return (
         <Card>
             <CardHeader className="pb-2 relative">
@@ -95,7 +113,7 @@ const WeaponCard = ({ weapon }: { weapon: WeaponDetail }) => {
                                 <Tooltip>
                                     <TooltipTrigger asChild>
                                         <Badge variant="outline" className="text-xs">
-                                            <span className="sm:hidden">{weapon.weaponType.slice(0, 3)}</span>
+                                            <span className="sm:hidden">{getMobileWeaponType(weapon.weaponType)}</span>
                                             <span className="hidden sm:inline">{weapon.weaponType}</span>
                                         </Badge>
                                     </TooltipTrigger>
@@ -175,7 +193,6 @@ export default function Dashboard() {
     const handleDataRefresh = useCallback(async () => {
         await fetchData();
     }, [fetchData]);
-
 
     const loadMoreWeapons = () => {
         setIsLoading(true);

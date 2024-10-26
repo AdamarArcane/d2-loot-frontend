@@ -3,44 +3,18 @@
 import { useState } from 'react'
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Target, RefreshCw } from "lucide-react"
+import { Target } from "lucide-react"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Button } from "@/components/ui/button"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
-import { useToast } from "@/hooks/use-toast"
 
 interface PlayerInfoBarProps {
     username: string;
     recommendedWeaponsCount: number;
     className?: string;
-    onDataRefresh: () => Promise<void>;
 }
 
-export function PlayerInfoBar({ username, recommendedWeaponsCount, className, onDataRefresh }: PlayerInfoBarProps) {
-    const [lastUpdated, setLastUpdated] = useState<Date>(new Date())
-    const [isRefreshing, setIsRefreshing] = useState(false)
-    const { toast } = useToast()
-
-    const refreshData = async () => {
-        setIsRefreshing(true)
-        try {
-            await onDataRefresh()
-            setLastUpdated(new Date())
-            toast({
-                title: "Data refreshed",
-                description: "Your player data has been updated.",
-            })
-        } catch (error) {
-            console.error('Error refreshing data:', error)
-            toast({
-                title: "Refresh failed",
-                description: "There was a problem updating your data. Please try again.",
-                variant: "destructive",
-            })
-        } finally {
-            setIsRefreshing(false)
-        }
-    }
+export function PlayerInfoBar({ username, recommendedWeaponsCount, className }: PlayerInfoBarProps) {
+    const [lastUpdated] = useState<Date>(new Date())
 
     const formatLastUpdated = (date: Date): string => {
         const now = new Date()
@@ -62,48 +36,25 @@ export function PlayerInfoBar({ username, recommendedWeaponsCount, className, on
                     </Avatar>
                     <div>
                         <h3 className="font-semibold text-lg">{username}</h3>
-                        <div className="flex items-center space-x-2">
-                            <span className="text-sm text-muted-foreground">
-                                Last updated: {formatLastUpdated(lastUpdated)}
-                            </span>
-                        </div>
+                        <span className="text-sm text-muted-foreground">
+                            Last updated: {formatLastUpdated(lastUpdated)}
+                        </span>
                     </div>
                 </div>
-                <div className="flex flex-col items-end space-y-2">
-                    <TooltipProvider>
-                        <Tooltip>
-                            <TooltipTrigger asChild>
-                                <Badge variant="secondary" className="text-xs py-1 px-2">
-                                    <Target className="h-3 w-3 mr-1" />
-                                    <span className="hidden sm:inline">{recommendedWeaponsCount} recommended weapons</span>
-                                    <span className="sm:hidden">{recommendedWeaponsCount}</span>
-                                </Badge>
-                            </TooltipTrigger>
-                            <TooltipContent>
-                                <p>{recommendedWeaponsCount} recommended weapons</p>
-                            </TooltipContent>
-                        </Tooltip>
-                    </TooltipProvider>
-                    <TooltipProvider>
-                        <Tooltip>
-                            <TooltipTrigger asChild>
-                                <Button
-                                    variant="outline"
-                                    size="sm"
-                                    className="h-6 w-6"
-                                    onClick={refreshData}
-                                    disabled={isRefreshing}
-                                >
-                                    <RefreshCw className={`h-3 w-3 ${isRefreshing ? 'animate-spin' : ''}`} />
-                                    <span className="sr-only">Refresh data</span>
-                                </Button>
-                            </TooltipTrigger>
-                            <TooltipContent>
-                                <p>Refresh data</p>
-                            </TooltipContent>
-                        </Tooltip>
-                    </TooltipProvider>
-                </div>
+                <TooltipProvider>
+                    <Tooltip>
+                        <TooltipTrigger asChild>
+                            <Badge variant="secondary" className="text-sm py-1 px-2">
+                                <Target className="h-4 w-4 mr-1" />
+                                <span className="hidden sm:inline">{recommendedWeaponsCount} recommended weapons</span>
+                                <span className="sm:hidden">{recommendedWeaponsCount}</span>
+                            </Badge>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                            <p>{recommendedWeaponsCount} recommended weapons</p>
+                        </TooltipContent>
+                    </Tooltip>
+                </TooltipProvider>
             </CardContent>
         </Card>
     )

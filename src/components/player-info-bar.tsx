@@ -54,7 +54,7 @@ export function PlayerInfoBar({ username, recommendedWeaponsCount, className, on
 
     return (
         <Card className={`bg-secondary/10 ${className}`}>
-            <CardContent className="flex items-center justify-between py-4">
+            <CardContent className="flex items-center justify-between py-3">
                 <div className="flex items-center space-x-4">
                     <Avatar className="h-12 w-12 border-2 border-primary">
                         <AvatarImage src="/placeholder.svg?height=48&width=48" alt={username} />
@@ -66,42 +66,44 @@ export function PlayerInfoBar({ username, recommendedWeaponsCount, className, on
                             <span className="text-sm text-muted-foreground">
                                 Last updated: {formatLastUpdated(lastUpdated)}
                             </span>
-                            <TooltipProvider>
-                                <Tooltip>
-                                    <TooltipTrigger asChild>
-                                        <Button
-                                            variant="outline"
-                                            size="icon"
-                                            className="h-6 w-6"
-                                            onClick={refreshData}
-                                            disabled={isRefreshing}
-                                        >
-                                            <RefreshCw className={`h-3 w-3 ${isRefreshing ? 'animate-spin' : ''}`} />
-                                            <span className="sr-only">Refresh data</span>
-                                        </Button>
-                                    </TooltipTrigger>
-                                    <TooltipContent>
-                                        <p>Refresh data</p>
-                                    </TooltipContent>
-                                </Tooltip>
-                            </TooltipProvider>
                         </div>
                     </div>
                 </div>
-                <TooltipProvider>
-                    <Tooltip>
-                        <TooltipTrigger asChild>
-                            <Badge variant="secondary" className="text-sm py-1 px-2">
-                                <Target className="h-4 w-4 mr-1" />
-                                <span className="hidden sm:inline">{recommendedWeaponsCount} recommended weapons</span>
-                                <span className="sm:hidden">{recommendedWeaponsCount}</span>
-                            </Badge>
-                        </TooltipTrigger>
-                        <TooltipContent>
-                            <p>{recommendedWeaponsCount} recommended weapons</p>
-                        </TooltipContent>
-                    </Tooltip>
-                </TooltipProvider>
+                <div className="flex flex-col items-end space-y-2">
+                    <TooltipProvider>
+                        <Tooltip>
+                            <TooltipTrigger asChild>
+                                <Badge variant="secondary" className="text-xs py-1 px-2">
+                                    <Target className="h-3 w-3 mr-1" />
+                                    <span className="hidden sm:inline">{recommendedWeaponsCount} recommended weapons</span>
+                                    <span className="sm:hidden">{recommendedWeaponsCount}</span>
+                                </Badge>
+                            </TooltipTrigger>
+                            <TooltipContent>
+                                <p>{recommendedWeaponsCount} recommended weapons</p>
+                            </TooltipContent>
+                        </Tooltip>
+                    </TooltipProvider>
+                    <TooltipProvider>
+                        <Tooltip>
+                            <TooltipTrigger asChild>
+                                <Button
+                                    variant="outline"
+                                    size="sm"
+                                    className="h-6 w-6"
+                                    onClick={refreshData}
+                                    disabled={isRefreshing}
+                                >
+                                    <RefreshCw className={`h-3 w-3 ${isRefreshing ? 'animate-spin' : ''}`} />
+                                    <span className="sr-only">Refresh data</span>
+                                </Button>
+                            </TooltipTrigger>
+                            <TooltipContent>
+                                <p>Refresh data</p>
+                            </TooltipContent>
+                        </Tooltip>
+                    </TooltipProvider>
+                </div>
             </CardContent>
         </Card>
     )

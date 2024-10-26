@@ -17,6 +17,12 @@ import {
     DropdownMenuSeparator,
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
+import {
+    Tooltip,
+    TooltipContent,
+    TooltipProvider,
+    TooltipTrigger,
+} from "@/components/ui/tooltip"
 
 interface Perk {
     name: string;
@@ -62,6 +68,10 @@ interface ResponseData {
 const WeaponCard = ({ weapon }: { weapon: WeaponDetail }) => {
     const recommendedPerks = weapon.recommendedPerks || [];
 
+    const truncateText = (text: string, maxLength: number) => {
+        return text.length > maxLength ? text.slice(0, maxLength) + '...' : text;
+    };
+
     return (
         <Card>
             <CardHeader className="pb-2 relative">
@@ -80,10 +90,22 @@ const WeaponCard = ({ weapon }: { weapon: WeaponDetail }) => {
                         className="w-16 h-16 object-contain rounded-md border border-border"
                     />
                     <div className="flex-grow">
-                        <div className="flex items-center space-x-2 mb-1">
-                            <Badge variant="outline" className="text-xs">{weapon.weaponType}</Badge>
+                        <div className="flex flex-wrap items-center gap-2 mb-1">
+                            <TooltipProvider>
+                                <Tooltip>
+                                    <TooltipTrigger asChild>
+                                        <Badge variant="outline" className="text-xs">
+                                            <span className="sm:hidden">{weapon.weaponType.slice(0, 3)}</span>
+                                            <span className="hidden sm:inline">{weapon.weaponType}</span>
+                                        </Badge>
+                                    </TooltipTrigger>
+                                    <TooltipContent>
+                                        <p>{weapon.weaponType}</p>
+                                    </TooltipContent>
+                                </Tooltip>
+                            </TooltipProvider>
                             <span className="text-xs text-muted-foreground">|</span>
-                            <span className="text-xs text-muted-foreground">{weapon.source}</span>
+                            <span className="text-xs text-muted-foreground truncate">{weapon.source}</span>
                         </div>
                         <p className="text-sm text-muted-foreground line-clamp-2">{weapon.description}</p>
                     </div>
@@ -96,9 +118,21 @@ const WeaponCard = ({ weapon }: { weapon: WeaponDetail }) => {
                     {recommendedPerks.length > 0 ? (
                         <div className="flex flex-wrap gap-1">
                             {recommendedPerks.map((perk, index) => (
-                                <Badge key={index} variant="secondary" className="text-xs">
-                                    {perk}
-                                </Badge>
+                                <TooltipProvider key={index}>
+                                    <Tooltip>
+                                        <TooltipTrigger asChild>
+                                            <Badge
+                                                variant="secondary"
+                                                className="text-xs px-2 py-0.5 truncate max-w-[120px]"
+                                            >
+                                                {truncateText(perk, 15)}
+                                            </Badge>
+                                        </TooltipTrigger>
+                                        <TooltipContent>
+                                            <p>{perk}</p>
+                                        </TooltipContent>
+                                    </Tooltip>
+                                </TooltipProvider>
                             ))}
                         </div>
                     ) : (

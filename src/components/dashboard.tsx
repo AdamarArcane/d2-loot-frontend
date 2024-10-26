@@ -186,9 +186,6 @@ export default function Dashboard() {
         fetchData();
     }, [fetchData]);
 
-    const handleDataRefresh = useCallback(async () => {
-        await fetchData();
-    }, [fetchData]);
 
     const loadMoreWeapons = () => {
         setIsLoading(true);
@@ -241,7 +238,6 @@ export default function Dashboard() {
             <PlayerInfoBar
                 username={data.username}
                 recommendedWeaponsCount={filteredAndSortedWeapons.length}
-                onDataRefresh={handleDataRefresh}
             />
             <div className="grid gap-4 md:grid-cols-2">
                 <ActivityRecommendation weapons={data.weaponDetails} />

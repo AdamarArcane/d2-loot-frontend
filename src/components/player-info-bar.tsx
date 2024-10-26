@@ -52,10 +52,6 @@ export function PlayerInfoBar({ username, recommendedWeaponsCount, className, on
         return `${Math.floor(diffInSeconds / 86400)} days ago`
     }
 
-    const truncateText = (text: string, maxLength: number) => {
-        return text.length > maxLength ? text.slice(0, maxLength) + '...' : text;
-    };
-
     return (
         <Card className={`bg-secondary/10 ${className}`}>
             <CardContent className="flex items-center justify-between py-4">
@@ -92,23 +88,20 @@ export function PlayerInfoBar({ username, recommendedWeaponsCount, className, on
                         </div>
                     </div>
                 </div>
-                <div className="flex items-center space-x-2">
-                    <TooltipProvider>
-                        <Tooltip>
-                            <TooltipTrigger asChild>
-                                <Badge variant="secondary" className="text-sm py-1 px-2 whitespace-nowrap max-w-[150px] overflow-hidden">
-                                    <Target className="h-4 w-4 mr-1 flex-shrink-0" />
-                                    <span className="truncate">
-                                        {truncateText(`${recommendedWeaponsCount} recommended weapons`, 20)}
-                                    </span>
-                                </Badge>
-                            </TooltipTrigger>
-                            <TooltipContent>
-                                <p>{recommendedWeaponsCount} recommended weapons</p>
-                            </TooltipContent>
-                        </Tooltip>
-                    </TooltipProvider>
-                </div>
+                <TooltipProvider>
+                    <Tooltip>
+                        <TooltipTrigger asChild>
+                            <Badge variant="secondary" className="text-sm py-1 px-2">
+                                <Target className="h-4 w-4 mr-1" />
+                                <span className="hidden sm:inline">{recommendedWeaponsCount} recommended weapons</span>
+                                <span className="sm:hidden">{recommendedWeaponsCount}</span>
+                            </Badge>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                            <p>{recommendedWeaponsCount} recommended weapons</p>
+                        </TooltipContent>
+                    </Tooltip>
+                </TooltipProvider>
             </CardContent>
         </Card>
     )

@@ -68,10 +68,6 @@ interface ResponseData {
 const WeaponCard = ({ weapon }: { weapon: WeaponDetail }) => {
     const recommendedPerks = weapon.recommendedPerks || [];
 
-    const truncateText = (text: string, maxLength: number) => {
-        return text.length > maxLength ? text.slice(0, maxLength) + '...' : text;
-    };
-
     const getMobileWeaponType = (weaponType: string) => {
         const mobileTypes: { [key: string]: string } = {
             "Grenade Launcher": "GL",
@@ -141,9 +137,9 @@ const WeaponCard = ({ weapon }: { weapon: WeaponDetail }) => {
                                         <TooltipTrigger asChild>
                                             <Badge
                                                 variant="secondary"
-                                                className="text-xs px-2 py-0.5 truncate max-w-[120px]"
+                                                className="text-xs px-2 py-0.5"
                                             >
-                                                {truncateText(perk, 15)}
+                                                {perk}
                                             </Badge>
                                         </TooltipTrigger>
                                         <TooltipContent>

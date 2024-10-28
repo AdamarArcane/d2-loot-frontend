@@ -22,16 +22,16 @@ import {
     AlertDialogTitle,
     AlertDialogTrigger,
 } from "@/components/ui/alert-dialog"
-import { useToast } from "@/hooks/use-toast"
+//import { useToast } from "@/hooks/use-toast"
 
-const backendURL = import.meta.env.VITE_BACKEND_URL;
+//const backendURL = import.meta.env.VITE_BACKEND_URL;
 const frontendURL = import.meta.env.VITE_FRONTEND_URL;
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
     const [mounted, setMounted] = useState(false)
     const [scrolled, setScrolled] = useState(false)
     const navigate = useNavigate()
-    const { toast } = useToast()
+    //const { toast } = useToast()
 
     useEffect(() => {
         setMounted(true)
@@ -43,34 +43,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
     if (!mounted) return null
 
     const handleSignOut = async () => {
-        try {
-            const response = await fetch(`${backendURL}/logout`, {
-                method: 'POST',
-                credentials: 'include',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Origin': frontendURL,
-                },
-            })
-
-            if (response.ok) {
-                toast({
-                    title: "Logged out successfully",
-                    description: "You have been logged out of your account.",
-                })
-                navigate('/')
-            } else {
-                throw new Error('Logout failed')
-                navigate('/')
-            }
-        } catch (error) {
-            console.error('Error signing out:', error)
-            toast({
-                title: "Logout failed",
-                description: "There was a problem logging out. Please try again.",
-                variant: "destructive",
-            })
-        }
+        navigate('/')
     }
 
     const LogoutButton = ({ className }: { className?: string }) => (

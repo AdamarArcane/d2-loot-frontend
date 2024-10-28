@@ -23,8 +23,8 @@ import {
     AlertDialogTrigger,
 } from "@/components/ui/alert-dialog"
 
-const backendURL = import.meta.env.BACKEND_URL;
-const frontendURL = import.meta.env.FRONTEND_URL;
+const backendURL = import.meta.env.VITE_BACKEND_URL;
+const frontendURL = import.meta.env.VITE_FRONTEND_URL;
 
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {

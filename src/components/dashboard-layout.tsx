@@ -114,12 +114,6 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
                         <span className="font-semibold">D2 Loot</span>
                     </div>
                     <nav className="flex space-x-4 mt-4 sm:mt-0">
-                        <Link to="/terms" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                            Terms
-                        </Link>
-                        <Link to="/privacy" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                            Privacy
-                        </Link>
                         <a href={frontendURL} className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                             d2loot.com
                         </a>

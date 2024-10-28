@@ -1,0 +1,1760 @@
+{
+    "username": "User828",
+    "inventoryRating": {
+        "totalPoints": 118.60000000000001,
+        "maxPossiblePoints": 319.5,
+        "weeklyChange": 0
+    },
+    "nextImportantGun": {
+        "name": "VS Velocity Baton",
+        "icon": "https://bungie.net/common/destiny2_content/icons/b89e90437957f2c56ef62425b30406a3.jpg",
+        "weaponType": "Orb Generation",
+        "description": "Best orb generation of any weapon in the game",
+        "source": "Vesper's Host",
+        "points": 10
+    },
+    "weaponDetails": [
+        {
+            "weaponName": "VS Velocity Baton",
+            "icon": "https://bungie.net/common/destiny2_content/icons/b89e90437957f2c56ef62425b30406a3.jpg",
+            "weaponType": "Grenade Launcher",
+            "weaponBucket": "Orb Generation",
+            "points": 10,
+            "perks": [],
+            "recommendedPerks": [
+                "Demolitionist",
+                "Attrition Orbs"
+            ],
+            "obtained": false,
+            "description": "Best orb generation of any weapon in the game",
+            "source": "Vesper's Host",
+            "id": "1"
+        },
+        {
+            "weaponName": "Aberrant Action",
+            "icon": "https://bungie.net/common/destiny2_content/icons/fd4ee0fc7c0c6249cb615aed85cd70e7.jpg",
+            "weaponType": "Sidearm",
+            "weaponBucket": "Energy Rocket Sidearm",
+            "points": 10,
+            "perks": [],
+            "recommendedPerks": [
+                "Heal Clip",
+                "Incandescent"
+            ],
+            "obtained": true,
+            "description": "Best energy rocket sidearm",
+            "source": "Episode: Echoes"
+        },
+        {
+            "weaponName": "Tinasha's Mastery",
+            "icon": "https://bungie.net/common/destiny2_content/icons/99498793c2c882eef5b7484492a6529f.jpg",
+            "weaponType": "Sidearm",
+            "weaponBucket": "Kinetic Rocket Sidearm",
+            "points": 3,
+            "perks": [],
+            "recommendedPerks": [
+                "Air Trigger",
+                "Chill Clip"
+            ],
+            "obtained": false,
+            "description": "Best kinetic rocket sidearm",
+            "source": "Iron Banner"
+        },
+        {
+            "weaponName": "The Call",
+            "icon": "https://bungie.net/common/destiny2_content/icons/dbf23a6cf171320a771a17f9b5191b43.jpg",
+            "weaponType": "Sidearm",
+            "weaponBucket": "Kinetic Rocket Sidearm",
+            "points": 8,
+            "perks": [],
+            "recommendedPerks": [
+                "Lead from Gold",
+                "One for All"
+            ],
+            "obtained": true,
+            "description": "Second best kinetic rocket sidearm",
+            "source": "The Pale Heart"
+        },
+        {
+            "weaponName": "Indebted Kindness",
+            "icon": "https://bungie.net/common/destiny2_content/icons/352833d18ac3305cae2b0e026de06554.jpg",
+            "weaponType": "Sidearm",
+            "weaponBucket": "Energy Rocket Sidearm",
+            "points": 1,
+            "perks": [],
+            "recommendedPerks": [
+                "Lead from Gold",
+                "Voltshot"
+            ],
+            "obtained": false,
+            "description": "Second best energy rocket sidearm",
+            "source": "Warlord's Ruin"
+        },
+        {
+            "weaponName": "VS Chill Inhibitor",
+            "icon": "https://bungie.net/common/destiny2_content/icons/6c1d34f6dcca37c6b4b8dde37f4c94ba.jpg",
+            "weaponType": "Grenade Launcher",
+            "weaponBucket": "DPS Heavy Grenade Launcher",
+            "points": 10,
+            "perks": [],
+            "recommendedPerks": [
+                "Envious Arsenal",
+                "Bait and Switch"
+            ],
+            "obtained": false,
+            "description": "Best DPS heavy grenade launcher",
+            "source": "Vesper's Host"
+        },
+        {
+            "weaponName": "Bitter/Sweet",
+            "icon": "https://bungie.net/common/destiny2_content/icons/707179026e7dd661d3e46615a4c4de06.jpg",
+            "weaponType": "Grenade Launcher",
+            "weaponBucket": "DPS Heavy Grenade Launcher",
+            "points": 8,
+            "perks": [],
+            "recommendedPerks": [
+                "Envious Arsenal",
+                "Bait and Switch"
+            ],
+            "obtained": false,
+            "description": "Best arc DPS heavy grenade launcher",
+            "source": "Episode: Revenant"
+        },
+        {
+            "weaponName": "Wicked Sister",
+            "icon": "https://bungie.net/common/destiny2_content/icons/8808a177da1c4822f259d53bbabdca44.jpg",
+            "weaponType": "Grenade Launcher",
+            "weaponBucket": "DPS Heavy Grenade Launcher",
+            "points": 6,
+            "perks": [],
+            "recommendedPerks": [
+                "Envious Arsenal",
+                "Bait and Switch"
+            ],
+            "obtained": false,
+            "description": "Best strand DPS heavy grenade launcher",
+            "source": "Vangaurd Ops"
+        },
+        {
+            "weaponName": "Edge Transit",
+            "icon": "https://bungie.net/common/destiny2_content/icons/f5548ad1862120aa9f9c96da4d444689.jpg",
+            "weaponType": "Grenade Launcher",
+            "weaponBucket": "DPS Heavy Grenade Launcher",
+            "points": 3.999999999999999,
+            "perks": [],
+            "recommendedPerks": [
+                "Envious Assassin",
+                "Bait and Switch"
+            ],
+            "obtained": false,
+            "description": "Best void DPS heavy grenade launcher",
+            "source": "Onslaught"
+        },
+        {
+            "weaponName": "Gjallarhorn",
+            "icon": "https://bungie.net/common/destiny2_content/icons/b62083eed6a4708e581fc9a061bcc8e9.jpg",
+            "weaponType": "Rocket Launcher",
+            "weaponBucket": "Exotic Add Clear",
+            "points": 5,
+            "perks": [],
+            "recommendedPerks": [
+                "Pack Hunter",
+                "Wolfpack Rounds"
+            ],
+            "obtained": true,
+            "description": "Best exotic add clear heavy",
+            "source": "Fly out the Wolves Quest"
+        },
+        {
+            "weaponName": "Forbearance",
+            "icon": "https://bungie.net/common/destiny2_content/icons/38b89e4fd05f348f448eaca1320a807c.jpg",
+            "weaponType": "Grenade Launcher",
+            "weaponBucket": "Energy Wave-Frame",
+            "points": 2.4,
+            "perks": [],
+            "recommendedPerks": [
+                "Ambitious Assassin",
+                "Chain Reaction"
+            ],
+            "obtained": true,
+            "description": "Excellent energy add clear grenade launcher",
+            "source": "Onslaught"
+        },
+        {
+            "weaponName": "IKELOS_SG_v1.0.3",
+            "icon": "https://bungie.net/common/destiny2_content/icons/0a7e7322b697373ce4ff418a6e9a52b4.jpg",
+            "weaponType": "Shotgun",
+            "weaponBucket": "Energy One-Two Punch",
+            "points": 3,
+            "perks": [],
+            "recommendedPerks": [
+                "Grave Robber",
+                "One-Two Punch"
+            ],
+            "obtained": false,
+            "description": "Best energy One-Two Punch shotgun",
+            "source": "Operation: Seraph's Shield"
+        },
+        {
+            "weaponName": "Midnight Coup",
+            "icon": "https://bungie.net/common/destiny2_content/icons/a16c0c62d2153cb59ca7dd5565d66d6a.jpg",
+            "weaponType": "Hand Cannon",
+            "weaponBucket": "Kinetic Primary",
+            "points": 1.2,
+            "perks": [],
+            "recommendedPerks": [
+                "Firefly",
+                "Frenzy"
+            ],
+            "obtained": false,
+            "description": "Excellent kinetic primary",
+            "source": "Onslaught"
+        },
+        {
+            "weaponName": "The Mountaintop",
+            "icon": "https://bungie.net/common/destiny2_content/icons/0c9b678fd92974726f166d42cda1774c.jpg",
+            "weaponType": "Grenade Launcher",
+            "weaponBucket": "Movement Grenade Launcher",
+            "points": 1.2000000000000002,
+            "perks": [],
+            "recommendedPerks": [
+                "Auto-Loading Holster",
+                "Frenzy"
+            ],
+            "obtained": false,
+            "description": "Best movement grenade launcher",
+            "source": "Onslaught"
+        },
+        {
+            "weaponName": "Alethonym",
+            "icon": "https://bungie.net/common/destiny2_content/icons/09da11cd4fc285affeb6922f09b431ee.jpg",
+            "weaponType": "Grenade Launcher",
+            "weaponBucket": "Movement Grenade Launcher",
+            "points": 3.2,
+            "perks": [],
+            "recommendedPerks": [
+                "Harvester Spike",
+                "Vestigial Alchemy"
+            ],
+            "obtained": true,
+            "description": "Second best movement grenade launcher",
+            "source": "Episode: Revenant"
+        },
+        {
+            "weaponName": "Sunshot",
+            "icon": "https://bungie.net/common/destiny2_content/icons/f45a7d8e52bf0d88bbd43d4354878313.jpg",
+            "weaponType": "Hand Cannon",
+            "weaponBucket": "Exotic Energy Primary",
+            "points": 10,
+            "perks": [],
+            "recommendedPerks": [
+                "Sun Blast",
+                "Sunburn"
+            ],
+            "obtained": true,
+            "description": "Best exotic energy primary",
+            "source": "Exotic Engram"
+        },
+        {
+            "weaponName": "Graviton Lance",
+            "icon": "https://bungie.net/common/destiny2_content/icons/ce9043979a6e35bf4d3952f5cf251a49.jpg",
+            "weaponType": "Pulse Rifle",
+            "weaponBucket": "Exotic Energy Primary",
+            "points": 1,
+            "perks": [],
+            "recommendedPerks": [
+                "Cosmology",
+                "Black Hole"
+            ],
+            "obtained": true,
+            "description": "Second best exotic energy primary",
+            "source": "Exotic Engram"
+        },
+        {
+            "weaponName": "Trinity Ghoul",
+            "icon": "https://bungie.net/common/destiny2_content/icons/ab33a7c7024299b28d8c6410d63e5bb5.jpg",
+            "weaponType": "Combat Bow",
+            "weaponBucket": "Exotic Energy Primary",
+            "points": 0.5,
+            "perks": [],
+            "recommendedPerks": [
+                "Lightning Rod",
+                "Split Electron"
+            ],
+            "obtained": true,
+            "description": "Very good exotic energy primary",
+            "source": "Exotic Engram"
+        },
+        {
+            "weaponName": "Leviathan's Breath",
+            "icon": "https://bungie.net/common/destiny2_content/icons/fd892bb713040300ad944590892b0e50.jpg",
+            "weaponType": "Combat Bow",
+            "weaponBucket": "Exotic DPS (Consistent)",
+            "points": 9,
+            "perks": [],
+            "recommendedPerks": [
+                "Leviathan's Sigh",
+                "Big-Game Hunter"
+            ],
+            "obtained": false,
+            "description": "Best consistent exotic heavy damage",
+            "source": "Exotic Archive"
+        },
+        {
+            "weaponName": "One Thousand Voices",
+            "icon": "https://bungie.net/common/destiny2_content/icons/51c53df606cca474dce3cadbf7d5ce28.jpg",
+            "weaponType": "Fusion Rifle",
+            "weaponBucket": "Exotic DPS (Consistent)",
+            "points": 7.2,
+            "perks": [],
+            "recommendedPerks": [
+                "Unforeseen Repercussions",
+                "Ahamkara's Eye"
+            ],
+            "obtained": false,
+            "description": "Excellent consistent exotic heavy damage",
+            "source": "Last Wish"
+        },
+        {
+            "weaponName": "The Prospector",
+            "icon": "https://bungie.net/common/destiny2_content/icons/09e0e23b932b8b713549ce8d8f4c5f4d.jpg",
+            "weaponType": "Grenade Launcher",
+            "weaponBucket": "Exotic DPS (Consistent)",
+            "points": 5.4,
+            "perks": [],
+            "recommendedPerks": [
+                "Full Auto Trigger System",
+                "Excavation"
+            ],
+            "obtained": false,
+            "description": "Excellent consistent exotic heavy damage",
+            "source": "Exotic Engram"
+        },
+        {
+            "weaponName": "Microcosm",
+            "icon": "https://bungie.net/common/destiny2_content/icons/8fc373a11adc417aab9a3ef4bab3bbe3.jpg",
+            "weaponType": "Trace Rifle",
+            "weaponBucket": "Exotic DPS (Consistent)",
+            "points": 3.5999999999999996,
+            "perks": [],
+            "recommendedPerks": [
+                "Paracausal Imbuement",
+                "Paracausal Beam"
+            ],
+            "obtained": false,
+            "description": "Excellent consistent exotic heavy damage",
+            "source": "The Pale Heart"
+        },
+        {
+            "weaponName": "Whisper of the Worm",
+            "icon": "https://bungie.net/common/destiny2_content/icons/e47c31826843f6fd0aa863eac6fd093e.jpg",
+            "weaponType": "Sniper Rifle",
+            "weaponBucket": "Exotic DPS (Total Damage)",
+            "points": 9,
+            "perks": [],
+            "recommendedPerks": [
+                "White Nail",
+                "Whispered Breathing"
+            ],
+            "obtained": true,
+            "description": "Best exotic heavy for total damage",
+            "source": "The Whisper"
+        },
+        {
+            "weaponName": "Grand Overture",
+            "icon": "https://bungie.net/common/destiny2_content/icons/bc76e54c9cd266c09d8e08036ebcfd42.jpg",
+            "weaponType": "Machine Gun",
+            "weaponBucket": "Exotic DPS (Total Damage)",
+            "points": 0.9000000000000004,
+            "perks": [],
+            "recommendedPerks": [
+                "Omega Strike",
+                "Wrath of the Colossus"
+            ],
+            "obtained": false,
+            "description": "Excellent exotic heavy for total damage",
+            "source": "Exotic Archive"
+        },
+        {
+            "weaponName": "Legend of Acrius",
+            "icon": "https://bungie.net/common/destiny2_content/icons/6de5f786f39bf827de8490e97b672ddb.jpg",
+            "weaponType": "Shotgun",
+            "weaponBucket": "Exotic DPS (Total Damage)",
+            "points": 0.9000000000000004,
+            "perks": [],
+            "recommendedPerks": [
+                "Long March",
+                "Shock Blast"
+            ],
+            "obtained": false,
+            "description": "Excellent exotic heavy for total damage",
+            "source": "Exotic Archive"
+        },
+        {
+            "weaponName": "Tractor Cannon",
+            "icon": "https://bungie.net/common/destiny2_content/icons/6afd31f787ff68d32e1f574686494606.jpg",
+            "weaponType": "Shotgun",
+            "weaponBucket": "Exotic Debuff",
+            "points": 10,
+            "perks": [],
+            "recommendedPerks": [
+                "The Scientific Method",
+                "Repulsor Force"
+            ],
+            "obtained": true,
+            "description": "Best exotic debuff",
+            "source": "Exotic Engram"
+        },
+        {
+            "weaponName": "Divinity",
+            "icon": "https://bungie.net/common/destiny2_content/icons/c6aa03536fd68b5fca5ad6b83ea0cf1e.jpg",
+            "weaponType": "Trace Rifle",
+            "weaponBucket": "Exotic Debuff",
+            "points": 1,
+            "perks": [],
+            "recommendedPerks": [
+                "Penance",
+                "Judgment"
+            ],
+            "obtained": false,
+            "description": "Situational exotic debuff",
+            "source": "Garden of Salvation"
+        },
+        {
+            "weaponName": "No Hesitation",
+            "icon": "https://bungie.net/common/destiny2_content/icons/6c48130b8beb51854867b53fe108aa6d.jpg",
+            "weaponType": "Unknown",
+            "weaponBucket": "Team Support Weapon",
+            "points": 7,
+            "perks": [],
+            "recommendedPerks": [
+                "Physic",
+                "Incandescent"
+            ],
+            "obtained": true,
+            "description": "Only support auto-rifle",
+            "source": "The Pale Heart"
+        },
+        {
+            "weaponName": "Ergo Sum",
+            "icon": "https://bungie.net/common/destiny2_content/icons/39a94c98eba4b9e007a76bbc067752f7.jpg",
+            "weaponType": "Sword",
+            "weaponBucket": "Add Clear with Damage Resistance",
+            "points": 3.500000000000001,
+            "perks": [],
+            "recommendedPerks": [
+                "Arc Conductor",
+                "Transcendent Duelist"
+            ],
+            "obtained": false,
+            "description": "Best exotic add clear with damage resistance",
+            "source": "The Pale Heart"
+        },
+        {
+            "weaponName": "Riskrunner",
+            "icon": "https://bungie.net/common/destiny2_content/icons/0b7fa10956ee9f16899ce1838c3c0e31.jpg",
+            "weaponType": "Submachine Gun",
+            "weaponBucket": "Add Clear with Damage Resistance",
+            "points": 4.199999999999999,
+            "perks": [],
+            "recommendedPerks": [
+                "Arc Conductor",
+                "Superconductor"
+            ],
+            "obtained": true,
+            "description": "Easily obtainable add clear with damage resistance",
+            "source": "Exotic Engram"
+        },
+        {
+            "weaponName": "Perfect Paradox",
+            "icon": "https://bungie.net/common/destiny2_content/icons/fb27afcf6cb34ca3ef2540af6b87c034.jpg",
+            "weaponType": "Shotgun",
+            "weaponBucket": "Kinetic One-Two Punch",
+            "points": 7,
+            "perks": [],
+            "recommendedPerks": [
+                "Field Prep",
+                "One-Two Punch"
+            ],
+            "obtained": true,
+            "description": "Best kinetic One-Two Punch shotgun",
+            "source": "Episode: Echoes"
+        },
+        {
+            "weaponName": "Wastelander M5",
+            "icon": "https://bungie.net/common/destiny2_content/icons/de438d2c498b727dfff7b997ba2e2263.jpg",
+            "weaponType": "Shotgun",
+            "weaponBucket": "Kinetic One-Two Punch",
+            "points": 0.7000000000000002,
+            "perks": [],
+            "recommendedPerks": [
+                "Lead from Gold",
+                "One-Two Punch"
+            ],
+            "obtained": false,
+            "description": "Excellent kinetic One-Two Punch shotgun",
+            "source": "Dares of Eternity"
+        },
+        {
+            "weaponName": "Veleda-F",
+            "icon": "https://bungie.net/common/destiny2_content/icons/3e848a787a8bb2790191ff7b3622ccd5.jpg",
+            "weaponType": "Sniper Rifle",
+            "weaponBucket": "Weaken on Demand",
+            "points": 6,
+            "perks": [],
+            "recommendedPerks": [
+                "Air Trigger",
+                "Withering Gaze"
+            ],
+            "obtained": false,
+            "description": "Best weaken on demand from legendary weapon",
+            "source": "World Drop"
+        },
+        {
+            "weaponName": "Sovereignty",
+            "icon": "https://bungie.net/common/destiny2_content/icons/8e9310f3519517973c913040cf870862.jpg",
+            "weaponType": "Sniper Rifle",
+            "weaponBucket": "Weaken on Demand",
+            "points": 4.8,
+            "perks": [],
+            "recommendedPerks": [
+                "Demolitionist",
+                "Withering Gaze"
+            ],
+            "obtained": false,
+            "description": "Excellent weaken on demand from legendary weapon",
+            "source": "Episode: Revenant"
+        },
+        {
+            "weaponName": "Critical Anomaly",
+            "icon": "https://bungie.net/common/destiny2_content/icons/64ce229d4c03c5cca04e9de5855146a2.jpg",
+            "weaponType": "Sniper Rifle",
+            "weaponBucket": "Hitscan Overload Stun",
+            "points": 6,
+            "perks": [],
+            "recommendedPerks": [
+                "Chill Clip",
+                "Chaos Reshaped"
+            ],
+            "obtained": false,
+            "description": "Best hitscan overload stun",
+            "source": "Salvation's Edge"
+        },
+        {
+            "weaponName": "The Supremacy",
+            "icon": "https://bungie.net/common/destiny2_content/icons/5f33552daed1a8035a7e19c4bf858078.jpg",
+            "weaponType": "Sniper Rifle",
+            "weaponBucket": "Kinetic Sniper",
+            "points": 1.7999999999999998,
+            "perks": [],
+            "recommendedPerks": [
+                "Rewind Rounds",
+                "Kinetic Tremors"
+            ],
+            "obtained": false,
+            "description": "Best kinetic damage sniper",
+            "source": "Last Wish"
+        },
+        {
+            "weaponName": "Irukandji",
+            "icon": "https://bungie.net/common/destiny2_content/icons/419076027986440657e61c49c5bdcf8d.jpg",
+            "weaponType": "Sniper Rifle",
+            "weaponBucket": "Kinetic Sniper",
+            "points": 4.8,
+            "perks": [],
+            "recommendedPerks": [
+                "Fourth Time's the Charm",
+                "Firing Line"
+            ],
+            "obtained": true,
+            "description": "Best kinetic damage sniper",
+            "source": "Last Wish"
+        },
+        {
+            "weaponName": "Lost Signal",
+            "icon": "https://bungie.net/common/destiny2_content/icons/58577a92574f2f57eb2b806ae39de598.jpg",
+            "weaponType": "Grenade Launcher",
+            "weaponBucket": "Transcendance Generation",
+            "points": 6,
+            "perks": [],
+            "recommendedPerks": [
+                "Auto-Loading Holster",
+                "Vorpal Weapon"
+            ],
+            "obtained": false,
+            "description": "Best darkness transcendence generation weapon",
+            "source": "Episode: Echoes"
+        },
+        {
+            "weaponName": "Pro Memoria",
+            "icon": "https://bungie.net/common/destiny2_content/icons/6c48130b8beb51854867b53fe108aa6d.jpg",
+            "weaponType": "Unknown",
+            "weaponBucket": "Machine Gun",
+            "points": 6,
+            "perks": [],
+            "recommendedPerks": [
+                "Demolitionist",
+                "Desperate Measures"
+            ],
+            "obtained": false,
+            "description": "Excellent add clear machine gun",
+            "source": "The Pale Heart"
+        },
+        {
+            "weaponName": "Commemoration",
+            "icon": "https://bungie.net/common/destiny2_content/icons/9820c9c3714bdd7f6fb7c2b83143041b.jpg",
+            "weaponType": "Machine Gun",
+            "weaponBucket": "Machine Gun",
+            "points": 4.8,
+            "perks": [],
+            "recommendedPerks": [
+                "Reconstruction",
+                "Killing Tally"
+            ],
+            "obtained": false,
+            "description": "Excellent add clear machine gun",
+            "source": "Deep Stone Crypt"
+        },
+        {
+            "weaponName": "Song of Ir Yût",
+            "icon": "https://bungie.net/common/destiny2_content/icons/a6b444748bd7c8fc2e5cc1b33678cc7d.jpg",
+            "weaponType": "Machine Gun",
+            "weaponBucket": "Machine Gun",
+            "points": 3.5999999999999996,
+            "perks": [],
+            "recommendedPerks": [
+                "Demolitionist",
+                "Sword Logic"
+            ],
+            "obtained": false,
+            "description": "Excellent add clear machine gun",
+            "source": "Crota's End"
+        },
+        {
+            "weaponName": "The Slammer",
+            "icon": "https://bungie.net/common/destiny2_content/icons/07f5f5cdb1486f9488c912540b1ea04b.jpg",
+            "weaponType": "Sword",
+            "weaponBucket": "Movement Sword",
+            "points": 0.5999999999999996,
+            "perks": [],
+            "recommendedPerks": [
+                "Eager Edge",
+                "Cold Steel"
+            ],
+            "obtained": false,
+            "description": "Excellent movement sword",
+            "source": "Nightfall Strikes"
+        },
+        {
+            "weaponName": "Falling Guillotine",
+            "icon": "https://bungie.net/common/destiny2_content/icons/84d0e560209551999cdde82172dfc619.jpg",
+            "weaponType": "Sword",
+            "weaponBucket": "Movement Sword",
+            "points": 6,
+            "perks": [],
+            "recommendedPerks": [
+                "Eager Edge",
+                "Chain Reaction"
+            ],
+            "obtained": true,
+            "description": "Best movement sword",
+            "source": "Onslaught"
+        },
+        {
+            "weaponName": "Heliocentric QSc",
+            "icon": "https://bungie.net/common/destiny2_content/icons/12a954eaccd2af10d0cc6977faab8989.jpg",
+            "weaponType": "Sidearm",
+            "weaponBucket": "Energy Primary",
+            "points": 5,
+            "perks": [],
+            "recommendedPerks": [
+                "Heal Clip",
+                "Incandescent"
+            ],
+            "obtained": false,
+            "description": "Excellent energy primary",
+            "source": "World Drop"
+        },
+        {
+            "weaponName": "Anonymous Autumn",
+            "icon": "https://bungie.net/common/destiny2_content/icons/0f1b89f3ebbd3027fdf497828a53105e.jpg",
+            "weaponType": "Sidearm",
+            "weaponBucket": "Energy Primary",
+            "points": 4,
+            "perks": [],
+            "recommendedPerks": [
+                "Eddy Current",
+                "Voltshot"
+            ],
+            "obtained": false,
+            "description": "Excellent energy primary",
+            "source": "Crucible"
+        },
+        {
+            "weaponName": "Nullify",
+            "icon": "https://bungie.net/common/destiny2_content/icons/03de9a5e297c2a9521e9ef360066417a.jpg",
+            "weaponType": "Pulse Rifle",
+            "weaponBucket": "Energy Primary",
+            "points": 3,
+            "perks": [],
+            "recommendedPerks": [
+                "Firefly",
+                "Incandescent"
+            ],
+            "obtained": false,
+            "description": "Excellent energy primary",
+            "source": "Salvation's Edge"
+        },
+        {
+            "weaponName": "Parasite",
+            "icon": "https://bungie.net/common/destiny2_content/icons/0a71a14d8614d619a40649f09b28b466.jpg",
+            "weaponType": "Grenade Launcher",
+            "weaponBucket": "Exotic Heavy Burst",
+            "points": 5,
+            "perks": [],
+            "recommendedPerks": [
+                "Worm Byproduct",
+                "Worm's Hunger"
+            ],
+            "obtained": true,
+            "description": "Best exotic heavy burst option",
+            "source": "Of Queens and Worms"
+        },
+        {
+            "weaponName": "The Wardcliff Coil",
+            "icon": "https://bungie.net/common/destiny2_content/icons/06d12929d1866159aca5cdb60282f908.jpg",
+            "weaponType": "Rocket Launcher",
+            "weaponBucket": "Exotic Heavy Burst",
+            "points": 0.5,
+            "perks": [],
+            "recommendedPerks": [
+                "Mechanized Autoloader",
+                "Mad Scientist"
+            ],
+            "obtained": false,
+            "description": "Excellent exotic heavy burst option",
+            "source": "Exotic Engram"
+        },
+        {
+            "weaponName": "Xenophage",
+            "icon": "https://bungie.net/common/destiny2_content/icons/de34570a93281dc201690cfd146e6d24.jpg",
+            "weaponType": "Machine Gun",
+            "weaponBucket": "Exotic Add Clear",
+            "points": 0.25,
+            "perks": [],
+            "recommendedPerks": [
+                "Rangefinder",
+                "Pyrotoxin Rounds"
+            ],
+            "obtained": false,
+            "description": "Excellent exotic add clear heavy",
+            "source": "The Journey"
+        },
+        {
+            "weaponName": "Thunderlord",
+            "icon": "https://bungie.net/common/destiny2_content/icons/4a08027f7b5752f84d183ecc61682c3e.jpg",
+            "weaponType": "Machine Gun",
+            "weaponBucket": "Exotic Add Clear",
+            "points": 0.5,
+            "perks": [],
+            "recommendedPerks": [
+                "Lightning Rounds",
+                "Reign Havoc"
+            ],
+            "obtained": true,
+            "description": "Excellent exotic add clear heavy",
+            "source": "Exotic Engram"
+        },
+        {
+            "weaponName": "Outbreak Perfected",
+            "icon": "https://bungie.net/common/destiny2_content/icons/a1b6a5f3e52878610397249986300b23.jpg",
+            "weaponType": "Pulse Rifle",
+            "weaponBucket": "Ammoless DPS",
+            "points": 4,
+            "perks": [],
+            "recommendedPerks": [
+                "Parasitism",
+                "Rewind Rounds"
+            ],
+            "obtained": true,
+            "description": "Best ammoless damage",
+            "source": "Zero Hour"
+        },
+        {
+            "weaponName": "Dead Weight",
+            "icon": "https://bungie.net/common/destiny2_content/icons/98e4b4b0bb26542664e0582033e9fbc9.jpg",
+            "weaponType": "Shotgun",
+            "weaponBucket": "Energy One-Two Punch",
+            "points": 2.4,
+            "perks": [],
+            "recommendedPerks": [
+                "Grave Robber",
+                "One-Two Punch"
+            ],
+            "obtained": false,
+            "description": "Excellent energy One-Two Punch shotgun",
+            "source": "Gambit"
+        },
+        {
+            "weaponName": "Heritage",
+            "icon": "https://bungie.net/common/destiny2_content/icons/07619f9f7115a2295c080f08179deb98.jpg",
+            "weaponType": "Shotgun",
+            "weaponBucket": "Kinetic Burst Damage",
+            "points": 3,
+            "perks": [],
+            "recommendedPerks": [
+                "Reconstruction",
+                "Recombination"
+            ],
+            "obtained": false,
+            "description": "Best kinetic burst damage shotgun",
+            "source": "Deep Stone Crypt"
+        },
+        {
+            "weaponName": "Omniscient Eye",
+            "icon": "https://bungie.net/common/destiny2_content/icons/26b41e620ad2359ba805e2c405233474.jpg",
+            "weaponType": "Sniper Rifle",
+            "weaponBucket": "Energy Damage Sniper",
+            "points": 3,
+            "perks": [],
+            "recommendedPerks": [
+                "Fourth Time's the Charm",
+                "Precision Instrument"
+            ],
+            "obtained": false,
+            "description": "Best energy damage sniper",
+            "source": "Garden of Salvation"
+        },
+        {
+            "weaponName": "IKELOS_SR_V1.0.3",
+            "icon": "https://bungie.net/common/destiny2_content/icons/45b7c7363d99e2b15f0edd3681e28d59.jpg",
+            "weaponType": "Sniper Rifle",
+            "weaponBucket": "Energy Damage Sniper",
+            "points": 2.4,
+            "perks": [],
+            "recommendedPerks": [
+                "Fourth Time's the Charm",
+                "Focused Fury"
+            ],
+            "obtained": false,
+            "description": "Excellent energy damage sniper",
+            "source": "Operation: Seraph's Shield"
+        },
+        {
+            "weaponName": "Scatter Signal",
+            "icon": "https://bungie.net/common/destiny2_content/icons/0032a353b7d88faabd02af376531fbd2.jpg",
+            "weaponType": "Fusion Rifle",
+            "weaponBucket": "Kinetic Fusion",
+            "points": 3,
+            "perks": [],
+            "recommendedPerks": [
+                "Overflow",
+                "Controlled Burst"
+            ],
+            "obtained": true,
+            "description": "Best kinetic damage fusion",
+            "source": "Season of the Wish"
+        },
+        {
+            "weaponName": "Zealot's Reward",
+            "icon": "https://bungie.net/common/destiny2_content/icons/befe333b98c55b5c8dce6ba073ae1e92.jpg",
+            "weaponType": "Fusion Rifle",
+            "weaponBucket": "Energy Fusion",
+            "points": 3,
+            "perks": [],
+            "recommendedPerks": [
+                "Auto-Loading Holster",
+                "Controlled Burst"
+            ],
+            "obtained": false,
+            "description": "Best energy damage fusion",
+            "source": "Garden of Salvation"
+        },
+        {
+            "weaponName": "Martyr's Retribution",
+            "icon": "https://bungie.net/common/destiny2_content/icons/39e43b57894237fdc40af4aeb1fe0fa3.jpg",
+            "weaponType": "Grenade Launcher",
+            "weaponBucket": "Energy Wave-Frame",
+            "points": 0.8999999999999999,
+            "perks": [],
+            "recommendedPerks": [
+                "Heal Clip",
+                "Incandescent"
+            ],
+            "obtained": false,
+            "description": "Best energy add clear grenade launcher",
+            "source": "Episode: Echoes"
+        },
+        {
+            "weaponName": "Tusk of the Boar",
+            "icon": "https://bungie.net/common/destiny2_content/icons/0d5daf18c3b61b51f91e1cb54b87cbec.jpg",
+            "weaponType": "Grenade Launcher",
+            "weaponBucket": "Kinetic Wave-Frame",
+            "points": 3,
+            "perks": [],
+            "recommendedPerks": [
+                "Slideways",
+                "Chain Reaction"
+            ],
+            "obtained": true,
+            "description": "Best kinetic add clear grenade launcher",
+            "source": "Iron Banner"
+        },
+        {
+            "weaponName": "Liturgy",
+            "icon": "https://bungie.net/common/destiny2_content/icons/1e1c59cda8582f2ad61ba0d89037ba22.jpg",
+            "weaponType": "Grenade Launcher",
+            "weaponBucket": "Kinetic Blind",
+            "points": 2,
+            "perks": [],
+            "recommendedPerks": [
+                "Slideways",
+                "Disorienting Grenades"
+            ],
+            "obtained": false,
+            "description": "Best kinetic blinding grenade launcher",
+            "source": "Episode: Revenant"
+        },
+        {
+            "weaponName": "Wilderflight",
+            "icon": "https://bungie.net/common/destiny2_content/icons/3d716eb7631167ec9ae7d2c642c5f0ae.jpg",
+            "weaponType": "Grenade Launcher",
+            "weaponBucket": "Energy Blind",
+            "points": 2,
+            "perks": [],
+            "recommendedPerks": [
+                "Auto-Loading Holster",
+                "Disorienting Grenades"
+            ],
+            "obtained": false,
+            "description": "Best energy blinding grenade launcher",
+            "source": "Spire of the Watcher"
+        },
+        {
+            "weaponName": "Rake Angle",
+            "icon": "https://bungie.net/common/destiny2_content/icons/a36a6212f90efbbf1df011a79d049fb7.jpg",
+            "weaponType": "Glaive",
+            "weaponBucket": "Glaive",
+            "points": 1,
+            "perks": [],
+            "recommendedPerks": [
+                "Impulse Amplifier",
+                "Chill Clip"
+            ],
+            "obtained": false,
+            "description": "Best glaive",
+            "source": "Nightfall Strikes"
+        },
+        {
+            "weaponName": "Chronophage",
+            "icon": "https://bungie.net/common/destiny2_content/icons/1bb5775c5b0730ef47e027b0f4885348.jpg",
+            "weaponType": "Trace Rifle",
+            "weaponBucket": "Energy Trace",
+            "points": 2,
+            "perks": [],
+            "recommendedPerks": [
+                "Shoot to Loot",
+                "Destabilizing Rounds"
+            ],
+            "obtained": true,
+            "description": "Best enegry trace rifle",
+            "source": "Episode: Echoes"
+        },
+        {
+            "weaponName": "Summum Bonum",
+            "icon": "https://bungie.net/common/destiny2_content/icons/e6087e2af1907deb1f7d28e5b90195dd.jpg",
+            "weaponType": "Sword",
+            "weaponBucket": "DPS Sword",
+            "points": 3,
+            "perks": [],
+            "recommendedPerks": [
+                "Relentless Strikes",
+                "Chaos Reshaped"
+            ],
+            "obtained": false,
+            "description": "Best DPS sword",
+            "source": "Salvation's Edge"
+        },
+        {
+            "weaponName": "Geodetic HSm",
+            "icon": "https://bungie.net/common/destiny2_content/icons/46308e2bdae627dbf098bdaeb87b2783.jpg",
+            "weaponType": "Sword",
+            "weaponBucket": "DPS Sword",
+            "points": 1.1999999999999997,
+            "perks": [],
+            "recommendedPerks": [
+                "Relentless Strikes",
+                "Whirlwind Blade"
+            ],
+            "obtained": false,
+            "description": "Excellent DPS sword",
+            "source": "World Drop"
+        },
+        {
+            "weaponName": "Ill Omen",
+            "icon": "https://bungie.net/common/destiny2_content/icons/1a67ee55aa0ff9a19f74c5bd25cb750d.jpg",
+            "weaponType": "Sword",
+            "weaponBucket": "DPS Sword",
+            "points": 2.4,
+            "perks": [],
+            "recommendedPerks": [
+                "Relentless Strikes",
+                "Whirlwind Blade"
+            ],
+            "obtained": false,
+            "description": "Excellent DPS sword",
+            "source": "Episode: Echoes"
+        },
+        {
+            "weaponName": "Bequest",
+            "icon": "https://bungie.net/common/destiny2_content/icons/c51dd26c9db21b789afa7d24d96e39fa.jpg",
+            "weaponType": "Sword",
+            "weaponBucket": "DPS Sword",
+            "points": 1.7999999999999998,
+            "perks": [],
+            "recommendedPerks": [
+                "Relentless Strikes",
+                "Surrounded"
+            ],
+            "obtained": false,
+            "description": "Excellent DPS sword when surrounded",
+            "source": "Deep Stone Crypt"
+        },
+        {
+            "weaponName": "Tomorrow's Answer",
+            "icon": "https://bungie.net/common/destiny2_content/icons/eb4d2fb7a6ab84848dd149a1a9e6e229.jpg",
+            "weaponType": "Rocket Launcher",
+            "weaponBucket": "DPS Rocket",
+            "points": 1.2000000000000002,
+            "perks": [],
+            "recommendedPerks": [
+                "Envious Arsenal",
+                "Bait and Switch"
+            ],
+            "obtained": false,
+            "description": "Best DPS rocket launcher",
+            "source": "Trials of Osiris"
+        },
+        {
+            "weaponName": "Apex Predator",
+            "icon": "https://bungie.net/common/destiny2_content/icons/74e3e47ee5478055a662bd4083774119.jpg",
+            "weaponType": "Rocket Launcher",
+            "weaponBucket": "DPS Rocket",
+            "points": 3.2,
+            "perks": [],
+            "recommendedPerks": [
+                "Reconstruction",
+                "Bait and Switch"
+            ],
+            "obtained": true,
+            "description": "Excellent DPS rocket launcher",
+            "source": "Last Wish"
+        },
+        {
+            "weaponName": "Crux Termination IV",
+            "icon": "https://bungie.net/common/destiny2_content/icons/02949959641cfd982ce7181cb73cc600.jpg",
+            "weaponType": "Rocket Launcher",
+            "weaponBucket": "DPS Rocket",
+            "points": 0.3999999999999999,
+            "perks": [],
+            "recommendedPerks": [
+                "Reconstruction",
+                "Bipod"
+            ],
+            "obtained": false,
+            "description": "Excellent DPS rocket launcher",
+            "source": "World Drop"
+        },
+        {
+            "weaponName": "Scintillation",
+            "icon": "https://bungie.net/common/destiny2_content/icons/fc7034c8741508de5b62fb9d15fb92d2.jpg",
+            "weaponType": "Linear Fusion Rifle",
+            "weaponBucket": "Linear",
+            "points": 0.6000000000000001,
+            "perks": [],
+            "recommendedPerks": [
+                "Rewind Rounds",
+                "Bait and Switch"
+            ],
+            "obtained": false,
+            "description": "Best DPS linear fusion rifle",
+            "source": "Nightfall Strikes"
+        },
+        {
+            "weaponName": "Doomed Petitioner",
+            "icon": "https://bungie.net/common/destiny2_content/icons/413145c6bc6ffa6c27751b5d2e3af36e.jpg",
+            "weaponType": "Linear Fusion Rifle",
+            "weaponBucket": "Linear",
+            "points": 1.6,
+            "perks": [],
+            "recommendedPerks": [
+                "Envious Assassin",
+                "Precision Instrument"
+            ],
+            "obtained": true,
+            "description": "Excellent DPS linear fusion rifle",
+            "source": "Season of the Wish"
+        },
+        {
+            "weaponName": "Multimach CCX",
+            "icon": "https://bungie.net/common/destiny2_content/icons/c2dc5dee3368836a8a0f30a301ca490f.jpg",
+            "weaponType": "Submachine Gun",
+            "weaponBucket": "Kinetic Primary",
+            "points": 2,
+            "perks": [],
+            "recommendedPerks": [
+                "Attrition Orbs",
+                "Kinetic Tremors"
+            ],
+            "obtained": false,
+            "description": "Best kinetic primary",
+            "source": "Iron Banner"
+        },
+        {
+            "weaponName": "Imminence",
+            "icon": "https://bungie.net/common/destiny2_content/icons/0a636f8e1f115bcb825e7ab60ef6c302.jpg",
+            "weaponType": "Submachine Gun",
+            "weaponBucket": "Kinetic Primary",
+            "points": 1.6,
+            "perks": [],
+            "recommendedPerks": [
+                "Enlightened Action",
+                "Chaos Reshaped"
+            ],
+            "obtained": false,
+            "description": "Excellent kinetic primary",
+            "source": "Salvation's Edge"
+        },
+        {
+            "weaponName": "Warden's Law",
+            "icon": "https://bungie.net/common/destiny2_content/icons/5c23f0f9236403e328f28ba89715903b.jpg",
+            "weaponType": "Hand Cannon",
+            "weaponBucket": "Kinetic Hand Cannon (Lucky Pants)",
+            "points": 2,
+            "perks": [],
+            "recommendedPerks": [
+                "Demolitionist",
+                "Vorpal Weapon"
+            ],
+            "obtained": false,
+            "description": "Best kinetic hand cannon for lucky pants",
+            "source": "Nightfall Strikes"
+        },
+        {
+            "weaponName": "Yesterday's Question",
+            "icon": "https://bungie.net/common/destiny2_content/icons/f9f81eceb8d5d4eb3f08c63150e5a980.jpg",
+            "weaponType": "Hand Cannon",
+            "weaponBucket": "Energy Hand Cannon (Lucky Pants)",
+            "points": 2,
+            "perks": [],
+            "recommendedPerks": [
+                "Rapid Hit",
+                "Vorpal Weapon"
+            ],
+            "obtained": false,
+            "description": "Best energy hand cannon for Lucky Pants",
+            "source": "Trials of Osiris"
+        },
+        {
+            "weaponName": "Maahes HC4",
+            "icon": "https://bungie.net/common/destiny2_content/icons/d4ef9daa529402d6345ea2b5be6cc24c.jpg",
+            "weaponType": "Hand Cannon",
+            "weaponBucket": "Energy Hand Cannon (Lucky Pants)",
+            "points": 1.6,
+            "perks": [],
+            "recommendedPerks": [
+                "Enlightened Action",
+                "Frenzy"
+            ],
+            "obtained": false,
+            "description": "Excellent energy hand cannon for Lucky Pants",
+            "source": "World Drop"
+        },
+        {
+            "weaponName": "Khvostov 7G-0X",
+            "icon": "https://bungie.net/common/destiny2_content/icons/23aac6d8454ee1bcd2234e303bd2d6bf.jpg",
+            "weaponType": "Auto Rifle",
+            "weaponBucket": "Exotic Kinetic Primary",
+            "points": 3,
+            "perks": [],
+            "recommendedPerks": [
+                "The Right Choice",
+                "Eyes Up, Guardian"
+            ],
+            "obtained": true,
+            "description": "Best exotic kinetic primary weapon for add clear",
+            "source": "The Pale Heart"
+        },
+        {
+            "weaponName": "Necrochasm",
+            "icon": "https://bungie.net/common/destiny2_content/icons/52e8bb636771f4731da3f73f06fcad04.jpg",
+            "weaponType": "Auto Rifle",
+            "weaponBucket": "Exotic Kinetic Primary",
+            "points": 0.2999999999999998,
+            "perks": [],
+            "recommendedPerks": [
+                "Desperation",
+                "Cursebringer"
+            ],
+            "obtained": false,
+            "description": "Excellent exotic kinetic primary weapon for add clear",
+            "source": "Crota's End"
+        },
+        {
+            "weaponName": "Bad Juju",
+            "icon": "https://bungie.net/common/destiny2_content/icons/a7cc8a658f8196f13cdde9d72ca9945d.jpg",
+            "weaponType": "Pulse Rifle",
+            "weaponBucket": "Super Generation",
+            "points": 2,
+            "perks": [],
+            "recommendedPerks": [
+                "Hip-Fire Grip",
+                "String of Curses"
+            ],
+            "obtained": true,
+            "description": "Best exotic kinetic primary weapon for super generation",
+            "source": "Exotic Archive"
+        },
+        {
+            "weaponName": "The Huckleberry",
+            "icon": "https://bungie.net/common/destiny2_content/icons/1d3447f547dbfb395720aad4c0921018.jpg",
+            "weaponType": "Submachine Gun",
+            "weaponBucket": "Kinetic SMG (Peacekeepers)",
+            "points": 2,
+            "perks": [],
+            "recommendedPerks": [
+                "Rampage",
+                "Ride the Bull"
+            ],
+            "obtained": false,
+            "description": "Best exotic kinetic primary weapon for Peacekeepers",
+            "source": "Exotic Engram"
+        },
+        {
+            "weaponName": "The Fourth Horseman",
+            "icon": "https://bungie.net/common/destiny2_content/icons/74e1434dd585c5c305f4d331d05895c6.jpg",
+            "weaponType": "Shotgun",
+            "weaponBucket": "Exotic Energy Burst",
+            "points": 0.9000000000000004,
+            "perks": [],
+            "recommendedPerks": [
+                "Broadside",
+                "Thunderer"
+            ],
+            "obtained": false,
+            "description": "Excellent exotic energy weapon for burst damage",
+            "source": "Exotic Archive"
+        },
+        {
+            "weaponName": "Choir of One",
+            "icon": "https://bungie.net/common/destiny2_content/icons/80cc90861aa83c63de2273457a6c9345.jpg",
+            "weaponType": "Auto Rifle",
+            "weaponBucket": "Exotic Energy Burst",
+            "points": 0.5000000000000002,
+            "perks": [],
+            "recommendedPerks": [
+                "Command Frame"
+            ],
+            "obtained": false,
+            "description": "Excellent exotic energy weapon for burst damage",
+            "source": "Encore"
+        },
+        {
+            "weaponName": "Still Hunt",
+            "icon": "https://bungie.net/common/destiny2_content/icons/b995885ef6216361e63a093896f75735.jpg",
+            "weaponType": "Sniper Rifle",
+            "weaponBucket": "Exotic Energy Burst",
+            "points": 1.2,
+            "perks": [],
+            "recommendedPerks": [
+                "Sharpshooter",
+                "Cayde's Retribution"
+            ],
+            "obtained": true,
+            "description": "Excellent exotic energy weapon for burst damage",
+            "source": "Wild Card Exotic Mission"
+        },
+        {
+            "weaponName": "Izanagi's Burden",
+            "icon": "https://bungie.net/common/destiny2_content/icons/8763caf9bfb147a41f3e34ec7eaf876b.jpg",
+            "weaponType": "Sniper Rifle",
+            "weaponBucket": "Exotic Energy Burst",
+            "points": 0.2,
+            "perks": [],
+            "recommendedPerks": [
+                "No Distractions",
+                "Honed Edge"
+            ],
+            "obtained": true,
+            "description": "Excellent exotic energy weapon for burst damage",
+            "source": "Exotic Archive"
+        },
+        {
+            "weaponName": "Buried Bloodline",
+            "icon": "https://bungie.net/common/destiny2_content/icons/fcae8edcd35227d35fca0a108d831840.jpg",
+            "weaponType": "Sidearm",
+            "weaponBucket": "Survivability",
+            "points": 0.6000000000000001,
+            "perks": [],
+            "recommendedPerks": [
+                "Violent Reanimation",
+                "Hungering Quarrel"
+            ],
+            "obtained": false,
+            "description": "Best exotic for survivability",
+            "source": "Warlord's Ruin"
+        },
+        {
+            "weaponName": "Red Death Reformed",
+            "icon": "https://bungie.net/common/destiny2_content/icons/262f0ef4547ca75c86d8eb5599b3eb60.jpg",
+            "weaponType": "Pulse Rifle",
+            "weaponBucket": "Survivability",
+            "points": 1.6,
+            "perks": [],
+            "recommendedPerks": [
+                "Redemption",
+                "Inverse Relationship"
+            ],
+            "obtained": true,
+            "description": "Excellent exotic for survivability",
+            "source": "Exotic Archive"
+        },
+        {
+            "weaponName": "Euphony",
+            "icon": "https://bungie.net/common/destiny2_content/icons/fe16110003f0cc75145eed012458a667.jpg",
+            "weaponType": "Linear Fusion Rifle",
+            "weaponBucket": "Exotic Special DPS (Total)",
+            "points": 1,
+            "perks": [],
+            "recommendedPerks": [
+                "Unwound",
+                "Spindle"
+            ],
+            "obtained": false,
+            "description": "Excellent exotic special weapon for total damage",
+            "source": "Salvation's Edge"
+        },
+        {
+            "weaponName": "Cloudstrike",
+            "icon": "https://bungie.net/common/destiny2_content/icons/ce45921edb8e35a249f2c6f5b3abaab5.jpg",
+            "weaponType": "Sniper Rifle",
+            "weaponBucket": "Exotic Special DPS (Total)",
+            "points": 0.8,
+            "perks": [],
+            "recommendedPerks": [
+                "Stormbringer",
+                "Mortal Polarity"
+            ],
+            "obtained": false,
+            "description": "Excellent exotic special weapon for total damage",
+            "source": "Exotic Engram"
+        }
+    ],
+    "bucketDetails": [
+        {
+            "name": "Orb Generation",
+            "totalOptions": 1,
+            "obtainedCount": 0,
+            "maxPoints": 10,
+            "currentPoints": 0,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Kinetic Rocket Sidearm",
+            "totalOptions": 2,
+            "obtainedCount": 1,
+            "maxPoints": 10,
+            "currentPoints": 8,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Energy Rocket Sidearm",
+            "totalOptions": 2,
+            "obtainedCount": 1,
+            "maxPoints": 10,
+            "currentPoints": 10,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "DPS Heavy Grenade Launcher",
+            "totalOptions": 4,
+            "obtainedCount": 0,
+            "maxPoints": 10,
+            "currentPoints": 0,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Exotic Energy Primary",
+            "totalOptions": 3,
+            "obtainedCount": 3,
+            "maxPoints": 10,
+            "currentPoints": 11.5,
+            "additionalCount": 2,
+            "additionalPoints": 1.5
+        },
+        {
+            "name": "Exotic DPS (Consistent)",
+            "totalOptions": 4,
+            "obtainedCount": 0,
+            "maxPoints": 9,
+            "currentPoints": 0,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Exotic DPS (Total Damage)",
+            "totalOptions": 3,
+            "obtainedCount": 1,
+            "maxPoints": 9,
+            "currentPoints": 9,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Exotic Debuff",
+            "totalOptions": 2,
+            "obtainedCount": 1,
+            "maxPoints": 10,
+            "currentPoints": 10,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Team Support Weapon",
+            "totalOptions": 1,
+            "obtainedCount": 1,
+            "maxPoints": 7,
+            "currentPoints": 7,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Add Clear with Damage Resistance",
+            "totalOptions": 2,
+            "obtainedCount": 1,
+            "maxPoints": 7,
+            "currentPoints": 4.199999999999999,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Kinetic One-Two Punch",
+            "totalOptions": 2,
+            "obtainedCount": 1,
+            "maxPoints": 7,
+            "currentPoints": 7,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Weaken on Demand",
+            "totalOptions": 2,
+            "obtainedCount": 0,
+            "maxPoints": 6,
+            "currentPoints": 0,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Hitscan Overload Stun",
+            "totalOptions": 1,
+            "obtainedCount": 0,
+            "maxPoints": 6,
+            "currentPoints": 0,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Kinetic Sniper",
+            "totalOptions": 2,
+            "obtainedCount": 1,
+            "maxPoints": 6,
+            "currentPoints": 4.8,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Transcendance Generation",
+            "totalOptions": 1,
+            "obtainedCount": 0,
+            "maxPoints": 6,
+            "currentPoints": 0,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Machine Gun",
+            "totalOptions": 3,
+            "obtainedCount": 0,
+            "maxPoints": 6,
+            "currentPoints": 0,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Movement Sword",
+            "totalOptions": 2,
+            "obtainedCount": 1,
+            "maxPoints": 6,
+            "currentPoints": 6,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Energy Primary",
+            "totalOptions": 3,
+            "obtainedCount": 0,
+            "maxPoints": 5,
+            "currentPoints": 0,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Exotic Heavy Burst",
+            "totalOptions": 2,
+            "obtainedCount": 1,
+            "maxPoints": 5,
+            "currentPoints": 5,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Exotic Add Clear",
+            "totalOptions": 3,
+            "obtainedCount": 2,
+            "maxPoints": 5,
+            "currentPoints": 5.5,
+            "additionalCount": 1,
+            "additionalPoints": 0.5
+        },
+        {
+            "name": "Ammoless DPS",
+            "totalOptions": 1,
+            "obtainedCount": 1,
+            "maxPoints": 4,
+            "currentPoints": 4,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Movement Grenade Launcher",
+            "totalOptions": 2,
+            "obtainedCount": 1,
+            "maxPoints": 4,
+            "currentPoints": 3.2,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Energy One-Two Punch",
+            "totalOptions": 2,
+            "obtainedCount": 0,
+            "maxPoints": 3,
+            "currentPoints": 0,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Kinetic Burst Damage",
+            "totalOptions": 1,
+            "obtainedCount": 0,
+            "maxPoints": 3,
+            "currentPoints": 0,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Energy Damage Sniper",
+            "totalOptions": 2,
+            "obtainedCount": 0,
+            "maxPoints": 3,
+            "currentPoints": 0,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Kinetic Fusion",
+            "totalOptions": 1,
+            "obtainedCount": 1,
+            "maxPoints": 3,
+            "currentPoints": 3,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Energy Fusion",
+            "totalOptions": 1,
+            "obtainedCount": 0,
+            "maxPoints": 3,
+            "currentPoints": 0,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Energy Wave-Frame",
+            "totalOptions": 2,
+            "obtainedCount": 1,
+            "maxPoints": 3,
+            "currentPoints": 2.4,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Kinetic Wave-Frame",
+            "totalOptions": 1,
+            "obtainedCount": 1,
+            "maxPoints": 3,
+            "currentPoints": 3,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Kinetic Blind",
+            "totalOptions": 1,
+            "obtainedCount": 0,
+            "maxPoints": 2,
+            "currentPoints": 0,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Energy Blind",
+            "totalOptions": 1,
+            "obtainedCount": 0,
+            "maxPoints": 2,
+            "currentPoints": 0,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Glaive",
+            "totalOptions": 1,
+            "obtainedCount": 0,
+            "maxPoints": 1,
+            "currentPoints": 0,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Energy Trace",
+            "totalOptions": 1,
+            "obtainedCount": 2,
+            "maxPoints": 2,
+            "currentPoints": 2.2,
+            "additionalCount": 1,
+            "additionalPoints": 0.2
+        },
+        {
+            "name": "DPS Sword",
+            "totalOptions": 4,
+            "obtainedCount": 0,
+            "maxPoints": 3,
+            "currentPoints": 0,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "DPS Rocket",
+            "totalOptions": 3,
+            "obtainedCount": 1,
+            "maxPoints": 4,
+            "currentPoints": 3.2,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Linear",
+            "totalOptions": 2,
+            "obtainedCount": 1,
+            "maxPoints": 2,
+            "currentPoints": 1.6,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Kinetic Primary",
+            "totalOptions": 3,
+            "obtainedCount": 0,
+            "maxPoints": 2,
+            "currentPoints": 0,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Kinetic Hand Cannon (Lucky Pants)",
+            "totalOptions": 1,
+            "obtainedCount": 0,
+            "maxPoints": 2,
+            "currentPoints": 0,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Energy Hand Cannon (Lucky Pants)",
+            "totalOptions": 2,
+            "obtainedCount": 0,
+            "maxPoints": 2,
+            "currentPoints": 0,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Exotic Kinetic Primary",
+            "totalOptions": 2,
+            "obtainedCount": 1,
+            "maxPoints": 3,
+            "currentPoints": 3,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Super Generation",
+            "totalOptions": 1,
+            "obtainedCount": 1,
+            "maxPoints": 2,
+            "currentPoints": 2,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Kinetic SMG (Peacekeepers)",
+            "totalOptions": 1,
+            "obtainedCount": 0,
+            "maxPoints": 2,
+            "currentPoints": 0,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Exotic Energy Burst",
+            "totalOptions": 4,
+            "obtainedCount": 2,
+            "maxPoints": 2,
+            "currentPoints": 1.4,
+            "additionalCount": 1,
+            "additionalPoints": 0.2
+        },
+        {
+            "name": "Survivability",
+            "totalOptions": 2,
+            "obtainedCount": 1,
+            "maxPoints": 2,
+            "currentPoints": 1.6,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        },
+        {
+            "name": "Exotic Special DPS (Total)",
+            "totalOptions": 2,
+            "obtainedCount": 0,
+            "maxPoints": 1,
+            "currentPoints": 0,
+            "additionalCount": 0,
+            "additionalPoints": 0
+        }
+    ]
+}

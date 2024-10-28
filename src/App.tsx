@@ -4,6 +4,8 @@ import SignIn from './components/SignIn';
 import Dashboard from './components/dashboard';
 import { ThemeProvider } from "@/components/theme-provider"
 import DashboardLayout from './components/dashboard-layout';
+import DemoLandingPage from './components/demo-landing-page';
+import DemoDashboard from './components/demo-dashboard';
 
 const App: React.FC = () => {
   return (
@@ -14,6 +16,12 @@ const App: React.FC = () => {
           <Route path="/dashboard" element={
             <DashboardLayout>
               <Dashboard />
+            </DashboardLayout>
+          } />
+          <Route path='/demo' element={<DemoLandingPage />} />
+          <Route path='/demo/dashboard' element={
+            <DashboardLayout>
+              <DemoDashboard />
             </DashboardLayout>
           } />
         </Routes>

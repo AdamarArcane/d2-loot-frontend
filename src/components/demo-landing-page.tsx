@@ -1,16 +1,15 @@
 import { useState, useEffect } from 'react'
+import { useNavigate, Link } from 'react-router-dom'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { ShieldCheck, Zap, Crosshair, ChevronDown, Sword, Target, Sparkles, ArrowRight } from "lucide-react"
-import { Link } from "react-router-dom"
+import { ShieldCheck, Zap, Crosshair, ChevronDown, Sword, Target, Sparkles, ArrowRight, Info } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { ModeToggle } from "./mode-toggle"
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 
-const backendURL = import.meta.env.VITE_BACKEND_URL;
-const frontendURL = import.meta.env.VITE_FRONTEND_URL;
-
-export default function LandingPage() {
+export default function DemoLandingPage() {
     const [scrolled, setScrolled] = useState(false)
+    const navigate = useNavigate()
 
     useEffect(() => {
         const handleScroll = () => {
@@ -20,12 +19,8 @@ export default function LandingPage() {
         return () => window.removeEventListener('scroll', handleScroll)
     }, [])
 
-    const handleSignIn = () => {
-        window.location.href = backendURL + '/login'
-    }
-
-    const handleTryDemo = () => {
-        window.location.href = '/demo'
+    const handleDemoAccess = () => {
+        navigate('/demo/dashboard')
     }
 
     return (
@@ -37,20 +32,28 @@ export default function LandingPage() {
                 <nav className="container mx-auto px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
                     <div className="flex h-16 items-center justify-between">
                         <div className="flex items-center">
-                            <Link to="/" className="flex items-center space-x-2" aria-label="D2 Loot Home">
+                            <Link to="/" className="flex items-center space-x-2" aria-label="D2 Loot Demo Home">
                                 <ShieldCheck className="h-8 w-8 text-primary" aria-hidden="true" />
-                                <span className="font-bold text-xl text-foreground">D2 Loot</span>
+                                <span className="font-bold text-xl text-foreground">D2 Loot Demo</span>
                             </Link>
                         </div>
-                        <div className="flex items-center space-x-2">
+                        <div className="flex items-center">
                             <ModeToggle />
-                            <Button onClick={handleSignIn} size="sm" className="text-sm md:text-base md:px-4">
-                                Sign in
+                            <Button onClick={handleDemoAccess} size="sm" className="text-sm md:text-base md:px-4 ml-2">
+                                Try Demo
                             </Button>
                         </div>
                     </div>
                 </nav>
             </header>
+
+            <Alert className="m-4">
+                <Info className="h-4 w-4" />
+                <AlertTitle>Demo Mode</AlertTitle>
+                <AlertDescription>
+                    This is a demonstration version of D2 Loot. No actual login is required.
+                </AlertDescription>
+            </Alert>
 
             <main className="flex-grow">
                 <section className="relative w-full py-24 md:py-32 lg:py-40 xl:py-48 overflow-hidden">
@@ -65,22 +68,19 @@ export default function LandingPage() {
                     <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
                         <div className="text-center">
                             <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl text-foreground drop-shadow-lg">
-                                Prepare for Destiny 2 Endgame
+                                Experience D2 Loot Demo
                             </h1>
                             <p className="mt-6 max-w-md mx-auto text-xl text-primary sm:text-2xl md:mt-8 md:max-w-3xl font-semibold">
-                                Optimize your arsenal and dominate challenging activities
+                                See how D2 Loot can optimize your Destiny 2 arsenal
                             </p>
                             <p className="mt-3 max-w-md mx-auto text-lg text-foreground/90 sm:text-xl md:mt-5 md:max-w-3xl">
-                                Get personalized weapon recommendations and activity suggestions to enhance your loadout
+                                Explore personalized weapon recommendations and activity suggestions
                             </p>
                             <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
-                                <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
-                                    <Button onClick={handleSignIn} size="lg" className="w-full text-lg hover:scale-105 transition-transform duration-300">
-                                        Get Started
+                                <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:gap-5">
+                                    <Button onClick={handleDemoAccess} size="lg" className="w-full text-lg hover:scale-105 transition-transform duration-300">
+                                        Try Demo Now
                                         <ArrowRight className="ml-2 h-5 w-5" />
-                                    </Button>
-                                    <Button onClick={handleTryDemo} size="lg" variant="outline" className="w-full text-lg hover:scale-105 transition-transform duration-300">
-                                        Try Demo
                                     </Button>
                                 </div>
                             </div>
@@ -157,13 +157,13 @@ export default function LandingPage() {
                     </div>
                     <div className="max-w-4xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8 relative z-10">
                         <h2 className="text-3xl font-extrabold text-foreground sm:text-4xl lg:text-5xl">
-                            <span className="block">Ready to conquer Destiny 2's endgame?</span>
+                            <span className="block">Ready to experience D2 Loot?</span>
                         </h2>
                         <p className="mt-4 text-xl leading-6 text-muted-foreground">
-                            Join thousands of Guardians who have optimized their loadouts and conquered the toughest challenges.
+                            Try our demo and see how D2 Loot can help you conquer Destiny 2's toughest challenges.
                         </p>
-                        <Button onClick={handleSignIn} size="lg" className="mt-8 w-full sm:w-auto text-lg hover:scale-105 transition-transform duration-300" variant="default">
-                            Sign in with Bungie
+                        <Button onClick={handleDemoAccess} size="lg" className="mt-8 w-full sm:w-auto text-lg hover:scale-105 transition-transform duration-300" variant="default">
+                            Access Demo Dashboard
                             <ArrowRight className="ml-2 h-5 w-5" />
                         </Button>
                     </div>
@@ -173,13 +173,13 @@ export default function LandingPage() {
             <footer className="bg-background">
                 <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
                     <div className="flex justify-center space-x-6 md:order-2">
-                        <a href={frontendURL} className="text-muted-foreground hover:text-foreground transition-colors duration-300">
+                        <a href="https://d2loot.com" className="text-muted-foreground hover:text-foreground transition-colors duration-300">
                             d2loot.com
                         </a>
                     </div>
                     <div className="mt-8 md:mt-0 md:order-1">
                         <p className="text-center text-base text-muted-foreground">
-                            &copy; 2024 D2 Loot. All rights reserved.
+                            &copy; 2024 D2 Loot. All rights reserved. This is a demo version.
                         </p>
                     </div>
                 </div>

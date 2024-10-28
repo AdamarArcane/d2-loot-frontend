@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback } from 'react'
+import { useState, useEffect } from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -21,6 +21,14 @@ import {
     TooltipProvider,
     TooltipTrigger,
 } from "@/components/ui/tooltip"
+import {
+    Dialog,
+    DialogContent,
+    DialogDescription,
+    DialogHeader,
+    DialogTitle,
+} from "@/components/ui/dialog"
+import demoData from './demo-data.json'
 
 interface Perk {
     name: string;
@@ -63,7 +71,31 @@ interface ResponseData {
     weaponDetails: WeaponDetail[];
 }
 
-const backendURL = import.meta.env.VITE_BACKEND_URL;
+const WelcomeDialog = ({ open, onOpenChange }: { open: boolean; onOpenChange: (open: boolean) => void }) => {
+    return (
+        <Dialog open={open} onOpenChange={onOpenChange}>
+            <DialogContent>
+                <DialogHeader>
+                    <DialogTitle>Welcome to D2Loot Demo</DialogTitle>
+                    <DialogDescription>
+                        D2Loot is your ultimate companion for managing your Destiny 2 weapons inventory.
+                    </DialogDescription>
+                </DialogHeader>
+                <div className="space-y-4">
+                    <p>Here are the key features of D2Loot:</p>
+                    <ul className="list-disc pl-5 space-y-2">
+                        <li>Inventory Rating: See how your weapon collection stacks up.</li>
+                        <li>Activity Recommendations: Get suggestions on which activities to play for the best loot.</li>
+                        <li>Weapon Recommendations: Discover which weapons you should be hunting for next.</li>
+                        <li>Search and Filter: Easily find the weapons you're looking for.</li>
+                        <li>Sorting: Organize weapons by points, name, or type.</li>
+                    </ul>
+                    <p>Explore the demo to see how D2Loot can optimize your Destiny 2 experience!</p>
+                </div>
+            </DialogContent>
+        </Dialog>
+    )
+}
 
 const WeaponCard = ({ weapon }: { weapon: WeaponDetail }) => {
     const recommendedPerks = weapon.recommendedPerks || [];
@@ -158,34 +190,21 @@ const WeaponCard = ({ weapon }: { weapon: WeaponDetail }) => {
     )
 }
 
-export default function Dashboard() {
+export default function DemoDashboard() {
     const [data, setData] = useState<ResponseData | null>(null);
     const [sortBy, setSortBy] = useState<'points' | 'name' | 'type'>('points');
     const [filterType, setFilterType] = useState<string>('all');
     const [visibleWeapons, setVisibleWeapons] = useState(12);
     const [isLoading, setIsLoading] = useState(false);
     const [searchQuery, setSearchQuery] = useState('');
-
-    const fetchData = useCallback(async () => {
-        try {
-            const response = await fetch(backendURL + '/user-data', {
-                credentials: 'include',
-            });
-            if (!response.ok) {
-                throw new Error('Unauthorized');
-            }
-            const newData: ResponseData = await response.json();
-            setData(newData);
-        } catch (error) {
-            console.error('Error fetching user data:', error);
-            window.location.href = '/';
-        }
-    }, []);
+    const [welcomeDialogOpen, setWelcomeDialogOpen] = useState(true);
 
     useEffect(() => {
-        fetchData();
-    }, [fetchData]);
-
+        // Simulate API call delay
+        setTimeout(() => {
+            setData(demoData as ResponseData);
+        }, 1000);
+    }, []);
 
     const loadMoreWeapons = () => {
         setIsLoading(true);
@@ -235,6 +254,7 @@ export default function Dashboard() {
 
     return (
         <div className="container mx-auto p-4 space-y-6">
+            <WelcomeDialog open={welcomeDialogOpen} onOpenChange={setWelcomeDialogOpen} />
             <PlayerInfoBar
                 username={data.username}
                 recommendedWeaponsCount={filteredAndSortedWeapons.length}

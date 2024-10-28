@@ -61,6 +61,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
                 navigate('/')
             } else {
                 throw new Error('Logout failed')
+                navigate('/')
             }
         } catch (error) {
             console.error('Error signing out:', error)

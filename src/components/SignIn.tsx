@@ -8,6 +8,10 @@ import { Link } from "react-router-dom"
 import { cn } from "@/lib/utils"
 import { ModeToggle } from "./mode-toggle"
 
+const backendURL = import.meta.env.VITE_BACKEND_URL;
+const frontendURL = import.meta.env.FRONTEND_URL;
+console.log(backendURL)
+
 export default function LandingPage() {
     const [scrolled, setScrolled] = useState(false)
 
@@ -20,7 +24,7 @@ export default function LandingPage() {
     }, [])
 
     const handleSignIn = () => {
-        window.location.href = 'https://api.d2loot.com/login'
+        window.location.href = backendURL + '/login'
     }
 
     return (
@@ -166,7 +170,7 @@ export default function LandingPage() {
             <footer className="bg-background">
                 <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
                     <div className="flex justify-center space-x-6 md:order-2">
-                        <a href="https://d2loot.com" className="text-muted-foreground hover:text-foreground transition-colors duration-300">
+                        <a href={frontendURL} className="text-muted-foreground hover:text-foreground transition-colors duration-300">
                             d2loot.com
                         </a>
                     </div>

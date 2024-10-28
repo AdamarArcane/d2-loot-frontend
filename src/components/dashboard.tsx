@@ -65,6 +65,8 @@ interface ResponseData {
     weaponDetails: WeaponDetail[];
 }
 
+const backendURL = import.meta.env.VITE_BACKEND_URL;
+
 const WeaponCard = ({ weapon }: { weapon: WeaponDetail }) => {
     const recommendedPerks = weapon.recommendedPerks || [];
 
@@ -168,7 +170,7 @@ export default function Dashboard() {
 
     const fetchData = useCallback(async () => {
         try {
-            const response = await fetch('https://api.d2loot.com/user-data', {
+            const response = await fetch(backendURL + '/user-data', {
                 credentials: 'include',
             });
             if (!response.ok) {

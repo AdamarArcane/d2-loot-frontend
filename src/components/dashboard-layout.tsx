@@ -23,6 +23,9 @@ import {
     AlertDialogTrigger,
 } from "@/components/ui/alert-dialog"
 
+const backendURL = import.meta.env.BACKEND_URL;
+const frontendURL = import.meta.env.FRONTEND_URL;
+
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
     const [mounted, setMounted] = useState(false)
@@ -40,7 +43,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
 
     const handleSignOut = async () => {
         try {
-            const response = await fetch('https://api.d2loot.com/logout', {
+            const response = await fetch(backendURL + '/logout', {
                 method: 'POST',
                 credentials: 'include',
             })
@@ -129,7 +132,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
                         <Link to="/privacy" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                             Privacy
                         </Link>
-                        <a href="https://d2loot.com" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                        <a href={frontendURL} className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                             d2loot.com
                         </a>
                     </nav>

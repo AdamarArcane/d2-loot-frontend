@@ -9,8 +9,7 @@ import { cn } from "@/lib/utils"
 import { ModeToggle } from "./mode-toggle"
 
 const backendURL = import.meta.env.VITE_BACKEND_URL;
-const frontendURL = import.meta.env.FRONTEND_URL;
-console.log(backendURL)
+const frontendURL = import.meta.env.VITE_FRONTEND_URL;
 
 export default function LandingPage() {
     const [scrolled, setScrolled] = useState(false)

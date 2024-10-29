@@ -1,12 +1,10 @@
 # D2Loot: Destiny 2 Inventory Optimization Tool
 
-![D2Loot Logo](https://d2loot.com/logo.png)
-
 ## 🌟 [Check out D2Loot in action!](https://d2loot.com) 🌟
 
 D2Loot is a cutting-edge web application designed to revolutionize inventory management for Destiny 2 players. By leveraging advanced algorithms and real-time data analysis, D2Loot provides personalized weapon recommendations, activity suggestions, and comprehensive inventory insights to help Guardians optimize their arsenal for any challenge.
 
-![D2Loot Dashboard](https://d2loot.com/dashboard-preview.png)
+![D2Loot Dashboard](./images/dashboard-1.png)
 
 ## 🚀 Features
 
@@ -93,8 +91,10 @@ npm run start
 ## 📸 Screenshots
 
 <div align="center">
-<img src="https://d2loot.com/screenshot1.png" alt="D2Loot Inventory Overview" width="45%">
-<img src="https://d2loot.com/screenshot2.png" alt="D2Loot Recommendations" width="45%">
+  <img src="./images/actprev.png" alt="D2Loot Activities Preview" width="45%">
+  <img src="./images/invprev.png" alt="D2Loot Inventory Preview" width="45%">
+  <img src="./images/activity.png" alt="D2Loot Activities Overview" width="45%">
+  <img src="./images/inventory-1.png" alt="D2Loot Inventory Overview" width="45%">
 </div>
 
 ## 🤝 Contributing
